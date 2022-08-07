@@ -4,6 +4,21 @@ main {
     flex-direction: column;
     align-items: center;
 }
-button {
-    width: 80px;
+
+#turnOnOff, #newLamp {
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 28px;
+    text-align: center;
+    align-items: center;
+    
 }
+
+#turnOnOff:hover,
+#newLamp:hover{
+    color: rgb(255, 255, 255);
+    background-color:blueviolet;
+}
+
